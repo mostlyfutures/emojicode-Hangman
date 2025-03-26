@@ -1,0 +1,31 @@
+🐇 🎮 🍇
+  🖍🆕 words 🍬🔡🍆
+  🖍🆕 selectedWord 🔡
+  🖍🆕 guessedWord 🔡
+  🖍🆕 lives 🔢
+
+  🆕 🍇
+    🆕🍬🔡🍆 ➡️ 🖍words
+    🐽words 🔤apple🔤❗️ 🔤banana🔤❗️ 🔤cherry🔤❗️ 🔤grape🔤❗️ 🔤orange🔤❗️ 🔤peach🔤❗️ 🔤plum🔤❗️ 🔤melon🔤❗️ 🔤kiwi🔤❗️ 🔤mango🔤❗️ 🍉
+    ↪️ 🐽words ❗️ ➡️ selectedWord 🍇
+      🖍selectedWord ⬅️ selectedWord
+      🖍guessedWord ⬅️ 🔫selectedWord❗️ 🍇🔂 🍉 🔤_🔤🍉🍉
+      🖍lives ⬅️ 3
+    🍉
+  🍉
+
+  ❗️ guess letter 🔡 ➡️ ❓ 🍇
+    ↪️ letter 🙌 selectedWord ❗️ 🍇
+      ↪️ 👍 🍇
+        ↪️ selectedWord 🙌 letter ❗️ ➡️ index 🍇
+          📇🐽guessedWord index❗️ ⬅️ letter
+        🍉
+      🍉
+      ↩️ 👍
+    🍉
+
+    ↪️ lives 🙌 1 🍇
+      ↩️ 👎
+    🍉
+
+    ↩🍉
